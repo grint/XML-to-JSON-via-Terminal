@@ -1,10 +1,15 @@
 #!/bin/bash
 
-XmlFolder=$HOME"/CloudStation.C3PO/Bootstrap/BeXs/"
-ScriptFolder=$HOME"/CloudStation.C3PO/Bootstrap/_Templates/xml2json_terminal/"
+##################################################################
+# Working folders: folder with XML files and current script folder
+##################################################################
+XmlFolder=$HOME"/Project_Folder/"
+ScriptFolder=$HOME"/Script_Folder/xml2json/"
 ERROR=" "
 
+##################################################################
 # Filenames to exclude
+##################################################################
 ignore=( "*-template.xml" "*-BMS*.xml" )
 
 cd $XmlFolder
